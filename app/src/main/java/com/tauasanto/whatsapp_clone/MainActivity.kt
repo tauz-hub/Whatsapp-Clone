@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         tabLayout = findViewById(R.id.tabLayoutMain)
         toolbar = findViewById(R.id.toolBarMain)
 
-        toolbar.title = "Whatsapp Clone"
+        toolbar.title = "Whatsapp Clone v1"
         setSupportActionBar(toolbar)
 
         appPagerAdapter = AppPagerAdapter(this)
